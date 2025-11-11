@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Características - Sunnect</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* --- Estilos minimalistas para las características --- */
+    .caracteristicas-section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .caracteristicas-section h2 {
+      color: #1E3A8A;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .caracteristicas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .caracteristica {
+      background: #fff;
+      border-radius: 18px;
+      padding: 2rem 1.5rem;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-top: 4px solid #3B82F6;
+    }
+
+    .caracteristica:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+    }
+
+    .caracteristica h3 {
+      font-size: 1.3rem;
+      color: #1E3A8A;
+      margin-bottom: 0.8rem;
+    }
+
+    .caracteristica p {
+      font-size: 0.95rem;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .caracteristicas-section {
+        padding: 1rem;
+      }
+      .caracteristica {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <h1>Sunnect</h1>
+      <p><i>Energía solar en tu bolsillo</i></p>
+      <p>|<strong> Zurime Corporation </strong>|</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="sobre.html">Sobre el producto</a>
+    <a href="caracteristicas.html">Características</a>
+    <a href="beneficios.html">Beneficios</a>
+    <a href="funcionamiento.html">¿Cómo funciona?</a>
+
+  </nav>
+
+  <main>
+    <section class="caracteristicas-section">
+      <h2>Características principales</h2>
+      <div class="caracteristicas-grid">
+        <div class="caracteristica">
+          <h3>Portabilidad</h3>
+          <p>Diseñado para acompañarte donde vayas. Su tamaño compacto y peso liviano lo hacen ideal para viajes, excursiones y el uso diario.</p>
+        </div>
+        <div class="caracteristica">
+          <h3>Carga rápida</h3>
+          <p>Con carga solar optimizada, puede recargar tu celular en menos de 2 horas bajo condiciones óptimas de sol.</p>
+        </div>
+        <div class="caracteristica">
+          <h3>Autonomía</h3>
+          <p>Incluye una batería interna capaz de ofrecer hasta 3 cargas completas a un celular promedio sin necesidad de sol inmediato.</p>
+        </div>
+        <div class="caracteristica">
+          <h3>Compatibilidad</h3>
+          <p>Funciona con una amplia gama de dispositivos gracias a sus adaptadores USB universales.</p>
+        </div>
+        <div class="caracteristica">
+          <h3>Tecnología eficiente</h3>
+          <p>Integra tecnología MPPT que aprovecha al máximo la energía solar, garantizando una carga más estable y rápida.</p>
+        </div>
+        <div class="caracteristica">
+          <h3>Durabilidad</h3>
+          <p>Construido con materiales resistentes al desgaste, la humedad y las variaciones de temperatura.</p>
+        </div>
+        <div class="caracteristica">
+          <h3>Ecológico</h3>
+          <p>Reduce la dependencia de la electricidad tradicional al aprovechar una fuente de energía limpia y renovable.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Matias Zurita - Octavio Romero</p>
+  </footer>
+</body>
+</html>

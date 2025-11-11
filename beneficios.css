@@ -1,0 +1,115 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #F3F4F6;
+  color: #111827;
+}
+
+/* Header */
+header {
+  background: #1E3A8A;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/* Navbar */
+nav {
+  background: #3B82F6;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #F3F4F6;
+  text-decoration: underline;
+}
+
+/* Sección de beneficios */
+main {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+#beneficios {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#beneficios h2 {
+  color: #1E3A8A;
+  border-bottom: 2px solid #3B82F6;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  color: #3B82F6;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.lista-beneficios {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-beneficios li {
+  background: #EFF6FF;
+  border-left: 6px solid #3B82F6;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.lista-beneficios li:hover {
+  background: #DBEAFE;
+  transform: translateX(5px);
+}
+
+.lista-beneficios strong {
+  color: #1E3A8A;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1E3A8A;
+  color: white;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
